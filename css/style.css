@@ -32,6 +32,18 @@ a{
   display: inline-block;
   padding-right: 5px;
 }
+
+.icon{
+  font-size: 1.2rem;
+  padding: 10px 0;
+  padding-right: 10px;
+}
+
+h5, h3{
+  color: #a3a3a3;
+  padding-left: 10px;
+}
+
 /* /generic-class */
 
 /* start */
@@ -50,33 +62,57 @@ main{
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 200px;
+  width: 250px;
+  background-color: #000;
+  padding: 0 20px;
 }
 
-.logo{
-  background-color: blue;
+.logo img{
+  width: 80%;
+  padding: 20px 0;
 }
 
 .main-nav{
-  background-color: #fff;
+  padding: 10px 0;
 }
 
 .playlist-title{
   height: 100%;
-  background-color: yellow;
+  overflow-y: scroll;
   overflow-y: hidden;
 }
 
+h4{
+  color: #fff;
+  padding: 20px 0;
+}
+
+.playlist{
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.quadrato{
+  height: 30px;
+  width: 30px;
+  background-color: #a3a3a3;
+}
+
 .play-nav{
-  height:100%;
-  overflow-y: scroll;
+  height: 100%;
+}
+
+.play-nav li{
+  padding: 10px 0;
+  font-size: 0.8rem;
 }
 
 .aside-bottom{
   margin-top: auto;
-  background-color: green;
   width: 100%;
-  flex-shrink: 0;
+  ;
+
 }
 /* aside-left */
 
