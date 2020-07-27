@@ -14,11 +14,15 @@ a{
   color: #7d7f84;
 }
 
+hr{
+  margin-top: 10px;
+}
 .button{
   color: #fff;
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 10px 15px;
+  margin-right: 30px;
 }
 
 .list-inline{
@@ -30,18 +34,23 @@ a{
 
 .list-inline li {
   display: inline-block;
-  padding-right: 5px;
+  padding-right: 15px;
 }
 
 .icon{
   font-size: 1.2rem;
+  color: #a3a3a3;
   padding: 10px 0;
   padding-right: 10px;
 }
 
-h5, h3{
+h4{
+  color: #fff;
+  padding: 20px 0;
+}
+
+h5{
   color: #a3a3a3;
-  padding-left: 10px;
 }
 
 /* /generic-class */
@@ -65,6 +74,7 @@ main{
   width: 250px;
   background-color: #000;
   padding: 0 20px;
+  overflow-y: hidden;
 }
 
 .logo img{
@@ -76,15 +86,15 @@ main{
   padding: 10px 0;
 }
 
+.border-yellow{
+  border-left: 2px solid #adff2f;
+  margin-left: -20px;
+  padding-left: 15px;
+}
+
 .playlist-title{
   height: 100%;
   overflow-y: scroll;
-  overflow-y: hidden;
-}
-
-h4{
-  color: #fff;
-  padding: 20px 0;
 }
 
 .playlist{
@@ -94,8 +104,9 @@ h4{
 }
 
 .quadrato{
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
   background-color: #a3a3a3;
 }
 
@@ -111,9 +122,22 @@ h4{
 .aside-bottom{
   margin-top: auto;
   width: 100%;
-  ;
-
+  height: 100px;
 }
+
+.aside-bottom a{
+  font-size: 0.8rem;
+}
+
+.download-icon{
+  font-size: 0.8rem;
+}
+
+.john{
+  display: flex;
+  align-items: center;
+}
+
 /* aside-left */
 
 /* main-content */
