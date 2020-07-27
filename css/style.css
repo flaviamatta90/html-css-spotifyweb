@@ -8,6 +8,12 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+a{
+  text-decoration: none;
+  color: #7d7f84;
+}
+
 .button{
   color: #fff;
   border: 1px solid #fff;
@@ -17,10 +23,10 @@ body{
 
 .list-inline{
   list-style: none;
-  color: #7d7f84;
   text-align: center;
   font-size: 1rem;
 }
+
 
 .list-inline li {
   display: inline-block;
@@ -57,13 +63,13 @@ main{
 
 .playlist-title{
   height: 100%;
-  overflow: hidden;
   background-color: yellow;
+  overflow-y: hidden;
 }
 
 .play-nav{
-  overflow-y: auto;
   height:100%;
+  overflow-y: scroll;
 }
 
 .aside-bottom{
