@@ -1,0 +1,89 @@
+/* generic-class */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.button{
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+/* /generic-class */
+
+/* start */
+.page-wrapper{
+  height: 100vh;
+}
+
+/* main */
+main{
+  height: calc(100% - 80px);
+  display: flex;
+}
+
+/* aside-left */
+.aside-left{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 200px;
+}
+
+.logo{
+  background-color: blue;
+}
+
+.main-nav{
+  background-color: #fff;
+}
+
+.playlist-title{
+  height: 100%;
+  overflow: hidden;
+  background-color: yellow;
+}
+
+.aside-bottom{
+  margin-top: auto;
+  background-color: green;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  flex-shrink: 0;
+}
+/* aside-left */
+
+/* main-content */
+.main-content{
+  height: 100%;
+  overflow-y: auto;
+  width: calc(100% - 200px);
+  background-color: pink;
+}
+
+.fix-bar{
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  height: 60px;
+  top: 0;
+  z-index: 1;
+  width: calc(100% - 200px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* main-content */
+
+/* /main */
+
+/* footer */
+footer{
+  height: 80px;
+  background-color: red;
+}
+/* footer */
