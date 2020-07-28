@@ -216,11 +216,16 @@ main{
 }
 
 .podcast li{
-  width: calc;
+  width: calc(100% / 6);
 }
 
 .img-section h5{
   text-align: center;
+}
+
+.creato-per{
+  display: flex;
+  align-content: flex-start;
 }
 /* main-content */
 
