@@ -67,6 +67,7 @@ h4{
 
 h5{
   color: #a3a3a3;
+  margin: 20px 0;
 }
 
 /* /generic-class */
@@ -213,6 +214,7 @@ main{
 .podcast{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .podcast li{
@@ -228,7 +230,7 @@ main{
 }
 
 .creato-fp h2{
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .creato-per{
@@ -275,6 +277,10 @@ main{
   font-size: 4rem;
 }
 
+.rounde{
+  border-radius: 100%;
+}
+
 /* main-content */
 
 /* /main */
@@ -308,18 +314,35 @@ footer{
   .aside-bottom{
     bottom: 0;
   }
+
+  .col-xs-12 {
+   width: 100%;
+ }
+
+ .podcast img{
+   max-width: 100%;
+ }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
     display: block;
   }
+
+ .col-sm-2 {
+   width: calc(100% / 6);
+ }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md {
     display: block;
   }
+
+  .col-md-3 {
+    width: calc(100% / 4);
+ }
+
 }
 
 @media (min-width: 1200px) {
