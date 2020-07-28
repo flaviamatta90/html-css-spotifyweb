@@ -94,7 +94,7 @@ main{
 
 .playlist-title{
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .playlist{
@@ -111,7 +111,8 @@ main{
 }
 
 .play-nav{
-  height: 100%;
+  height: 300px;
+  overflow: auto;
 }
 
 .play-nav li{
