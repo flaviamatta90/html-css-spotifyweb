@@ -54,6 +54,12 @@ h2{
   color: #ffffff;
 }
 
+h3{
+  color: #ffffff;
+  text-align: center;
+  margin: 10px 0;
+}
+
 h4{
   color: #fff;
   padding: 20px 0;
@@ -210,8 +216,13 @@ main{
   justify-content: space-between;
 }
 
-.img-section img{
-  width: 15%;
+.img img{
+  width: 90%;
+}
+
+
+.img-section h5{
+  text-align: center;
 }
 /* main-content */
 
