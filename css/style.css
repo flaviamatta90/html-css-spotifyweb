@@ -41,7 +41,6 @@ hr{
   font-size: 1.2rem;
   color: #a3a3a3;
   padding: 10px 0;
-  padding-right: 10px;
 }
 
 h4{
@@ -78,23 +77,29 @@ main{
 }
 
 .logo img{
-  width: 80%;
-  padding: 20px 0;
+  width: 70%;
+  padding: 15px 0;
+}
+
+.fa-spotify{
+  color: #fff;
 }
 
 .main-nav{
   padding: 10px 0;
+  flex-direction: column;
+}
+
+.home{
+  display: flex;
+
+  align-items: center;
 }
 
 .border-yellow{
   border-left: 2px solid #adff2f;
   margin-left: -20px;
   padding-left: 15px;
-}
-
-.playlist-title{
-  height: 100%;
-  overflow-y: auto;
 }
 
 .playlist{
@@ -110,9 +115,13 @@ main{
   background-color: #a3a3a3;
 }
 
+.secondary-nav{
+  height: 100%;;
+  overflow-y: auto;
+}
+
 .play-nav{
-  height: 300px;
-  overflow: auto;
+  height: 250px;
 }
 
 .play-nav li{
@@ -121,9 +130,7 @@ main{
 }
 
 .aside-bottom{
-  margin-top: auto;
-  width: 100%;
-  height: 100px;
+
 }
 
 .aside-bottom a{
@@ -175,3 +182,40 @@ footer{
   background-color: red;
 }
 /* footer */
+
+
+/* mediaqueery */
+
+@media screen {
+  .visible-xs,
+  .visible-sm,
+  .visible-md,
+  .visible-lg {
+    display: none;
+}
+
+}
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block;
+  }
+}
