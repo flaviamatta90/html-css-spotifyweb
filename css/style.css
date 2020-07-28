@@ -49,6 +49,10 @@ hr{
   align-items: center;
 }
 
+h2{
+  padding: 20px 0;
+  color: #ffffff;
+}
 
 h4{
   color: #fff;
@@ -97,7 +101,7 @@ main{
   flex-direction: column;
 }
 
-.border-yellow{
+.john:hover{
   border-left: 2px solid #adff2f;
   margin-left: -20px;
   padding-left: 15px;
@@ -164,8 +168,6 @@ main{
   font-size: 0.8rem;
 }
 
-
-
 /* aside-left */
 
 /* main-content */
@@ -174,6 +176,12 @@ main{
   overflow-y: auto;
   width: calc(100% - 200px);
   background-color: #141922;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
 .fix-bar{
@@ -191,6 +199,19 @@ main{
 
 .list-title{
   margin-top: 80px;
+}
+
+.list-title a:hover{
+  border-bottom: 2px solid #adff2f;
+}
+
+.img-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-section img{
+  width: 15%;
 }
 /* main-content */
 
