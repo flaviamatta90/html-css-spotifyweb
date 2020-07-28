@@ -187,7 +187,6 @@ main{
 .container{
   width: 90%;
   margin: auto;
-  flex-wrap: wrap;
 }
 
 .fix-bar{
@@ -211,15 +210,14 @@ main{
   border-bottom: 2px solid #adff2f;
 }
 
-.img-section{
+.podcast{
   display: flex;
   justify-content: space-between;
 }
 
-.img img{
-  width: 90%;
+.podcast li{
+  width: calc;
 }
-
 
 .img-section h5{
   text-align: center;
