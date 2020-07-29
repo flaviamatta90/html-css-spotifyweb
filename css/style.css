@@ -285,7 +285,6 @@ main{
 /* footer */
 footer{
   background-color: #282828;
-  height: 80px;
   width: 100%;
 }
 
@@ -296,8 +295,6 @@ footer{
 
 .music-bar{
   display: flex;
-  align-items: center;
-  width: calc(100% / 3);
   margin: 10px;
 }
 
@@ -308,14 +305,43 @@ footer{
 
 .title-footer-bottom{
   margin: 0 10px;
-  padding-right: 30px;
+  padding-right: 45px;
 }
 
 .title-footer-bottom h5{
   margin: 0;
 }
+
 .title-footer-bottom h6{
   padding-top: 5px;
+}
+
+.player{
+  text-align: center;
+}
+
+.number, .bar{
+  display: inline-block;
+}
+
+.number{
+  color: #a3a3a3;
+  font-size: 0.6rem;
+}
+
+.bar{
+  width: 350px;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #a3a3a3;
+}
+
+.font-icon{
+  font-size: 1rem;
+}
+
+.cerchio{
+  font-size: 1.2rem
 }
 /* .container-footer::after{
   content:"";
