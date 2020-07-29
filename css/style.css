@@ -325,6 +325,23 @@ footer{
   display: inline-block;
 }
 
+
+.bar:hover{
+  background-color: yellow;
+}
+
+.last-bar:hover{
+  background-color: yellow;
+}
+
+/* .bar:hover{
+  width: 300px;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #c1c1c1;
+  margin-top: 15px;
+
+} */
 .number{
   color: #a3a3a3;
   font-size: 0.6rem;
