@@ -191,7 +191,7 @@ main{
 .main-content{
   height: 100%;
   overflow-y: auto;
-  width: calc(100% - 200px);
+  width: calc(100% - 250px);
   background-color: #141922;
 }
 
@@ -209,7 +209,7 @@ main{
   height: 60px;
   top: 0;
   z-index: 1;
-  width: calc(100% - 200px);
+  width: calc(100% - 250px);
   background-color: rgba(8, 11, 18, 0.5);
 }
 
@@ -321,7 +321,7 @@ footer{
   text-align: center;
 }
 
-.number, .bar, .last-bar{
+.number, .bar, .last-bar, .music-bar-container{
   display: inline-block;
 }
 
@@ -338,6 +338,10 @@ footer{
   margin-top: 15px;
 }
 
+.second-side-footer{
+  text-align: center;
+}
+
 .last-bar{
   width: 150px;
 }
@@ -346,54 +350,6 @@ footer{
   font-size: 0.9rem;
 }
 
-.cerchio{
-  font-size: 1.2rem
-}
-/* .container-footer::after{
-  content:"";
-	display:table;
-	clear:both;
-}
-
-.first-side, .second-side, .third-side{
-  float:left;
-  width: 33%;
-  margin-top: 10px;
-} */
-
-/* .container-footer{
-  display:flex;
-  justify-content: space-between;
-}
-
-
-.music-player{
-  width: calc(100% / 3);
-}
-
-
-.first-side img{
-  width: 20%;
-}
-
-.music-player .icon{
-  font-size: 0.8rem;
-}
-
-.player{
-  text-align: center;
-}
-
-.number, .bar{
-  display: inline-block;
-}
-
-.bar{
-  width: 50%;
-  height: 3px;
-  border-radius: 4px;
-  background-color: #000;
-} */
 
 /* footer */
 
@@ -414,6 +370,17 @@ footer{
     display: block;
   }
 
+  .main-content{
+    width: calc(100% - 60px);
+  }
+
+  .aside-left{
+    width: 60px;
+  }
+
+  .fix-bar{
+    width: calc(100% - 60px);
+  }
   .aside-bottom{
     bottom: 0;
   }
@@ -421,6 +388,30 @@ footer{
   .podcast{
    width: 100%;
  }
+
+ .bar, .last-bar{
+   width: 50px;
+ }
+
+ .font-icon{
+   font-size: 0.6rem;
+ }
+
+.title-footer-bottom h5, h6{
+  font-size: 0.5rem;
+}
+
+.title-footer-bottom{
+  padding-right: 5px;
+}
+
+.second-side-footer{
+  margin-top: -8px;
+}
+
+.music-bar img {
+  width: 20px;
+}
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -430,6 +421,10 @@ footer{
 
  .podcast {
    width: 50%;
+ }
+
+ .bar, .last-bar{
+   width: 100px;
  }
 }
 
