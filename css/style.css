@@ -214,23 +214,13 @@ main{
   border-bottom: 2px solid #adff2f;
 }
 
-.podcast{
+.inside{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.container::after{
-  content:"";
-	display:table;
-	clear:both;
-}
-
-[class*="col-"]{
-  float: left;
-}
-
-
-.podcast li{
+.podcast{
   width: calc((100% / 6) - 15px);
 }
 
@@ -238,7 +228,7 @@ main{
   max-width: 100%;
 }
 
-.img-section h5{
+.podcast h5{
   text-align: center;
 }
 
@@ -299,8 +289,8 @@ main{
 
 /* footer */
 footer{
-  height: 80px;
   background-color: #282828;
+  width: 100%;
 }
 
 .container-footer::after{
@@ -317,6 +307,7 @@ footer{
 
 .first-side img{
   width: 20%;
+  float:left;
 }
 
 .music-player .icon{
