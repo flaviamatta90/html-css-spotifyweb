@@ -341,10 +341,6 @@ footer{
   transition: 2s;
 }
 
-.bar:active{
-  width: 80%;
-  background-color: #adff2f;
-}
 
 .second-side-footer{
   text-align: center;
@@ -357,6 +353,19 @@ footer{
 .font-icon{
   font-size: 0.9rem;
 }
+
+
+.fa-redo-alt:hover{
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  100%{
+  transform: rotate(1turn);
+  }
+}
+
+
 
 /* footer */
 
