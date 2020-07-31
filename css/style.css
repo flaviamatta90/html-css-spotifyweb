@@ -335,25 +335,33 @@ footer{
   width: 300px;
   height: 3px;
   border-radius: 4px;
-  background: rgb(193,193,193);
-  background: linear-gradient(90deg, rgba(193,193,193,1) 27%, rgba(77,77,77,1) 27%);
+  background: #5a5a5a;
   margin-top: 15px;
   transition: 2s;
-}
-
-
-.second-side-footer{
-  text-align: center;
 }
 
 .last-bar{
   width: 150px;
 }
 
+.bar-light{
+  width: 20%;
+  height: 3px;
+  background-color: #5a5a5a;
+}
+
+.bar-light:hover{
+  width: 25%;
+  background-color: #adff2f;
+}
+
+.second-side-footer{
+  text-align: center;
+}
+
 .font-icon{
   font-size: 0.9rem;
 }
-
 
 .fa-redo-alt:hover{
   animation: spin 2s linear infinite;
