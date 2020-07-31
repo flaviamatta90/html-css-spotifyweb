@@ -248,6 +248,7 @@ main{
 
 .hover-play{
   position:relative;
+  font-size: 0;
 }
 
 .hover-play:hover .overlay-img{
@@ -337,6 +338,12 @@ footer{
   background: rgb(193,193,193);
   background: linear-gradient(90deg, rgba(193,193,193,1) 27%, rgba(77,77,77,1) 27%);
   margin-top: 15px;
+  transition: 2s;
+}
+
+.bar:active{
+  width: 80%;
+  background-color: #adff2f;
 }
 
 .second-side-footer{
@@ -350,7 +357,6 @@ footer{
 .font-icon{
   font-size: 0.9rem;
 }
-
 
 /* footer */
 
@@ -382,17 +388,20 @@ footer{
   .fix-bar{
     width: calc(100% - 60px);
   }
+
   .aside-bottom{
     bottom: 0;
   }
 
-  .podcast{
-   width: 100%;
- }
-
  .bar, .last-bar{
    width: 50px;
  }
+
+.bar-light{
+  width: 20%;
+  height: 3px;
+  background-color: yellow;
+}
 
  .font-icon{
    font-size: 0.6rem;
@@ -437,7 +446,6 @@ footer{
   .podcast {
     width: calc(100% / 4);
  }
-
 }
 
 @media screen and (min-width: 1200px) {
